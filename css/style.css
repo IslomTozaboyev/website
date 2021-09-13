@@ -1,0 +1,98 @@
+.menu {
+  list-style-type: none;
+}
+.logo{
+  max-width: 250px !important;
+}
+.menu a {
+  color: black;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: none;
+}
+
+.sidebar {
+  display: block !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 240px;
+  background-color: #ffffff;
+  box-shadow: -10px 0 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.hide {
+  right: -260px;
+}
+
+.selectpicker {
+  border: none;
+  outline: none;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+.flag {
+  width: 20px !important;
+  height: 20px !important;
+}
+.dropdown1 {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+.dropitem1{
+  background-color: white;
+  width: 200px;
+  margin: 0px;
+  padding: 20px;
+  list-style-type: none;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  opacity: 0.2;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.dropdown1:hover .dropitem1 {
+  width: 120px;
+  visibility: visible;
+  top: 40px;
+  opacity: 1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.dropdown1 a:hover {
+  color: red;
+}
+
+.dropdown2 {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+.dropitem2{
+  background-color: white !important;
+  padding: 12px;
+  margin: 0px;
+  list-style-type: none;
+  position: absolute;
+  top: 50px;
+  right: -125px;
+  opacity: 0.2;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.dropitem2 a:hover {
+  color: red;
+}
+
+.dropdown2:hover .dropitem2 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  visibility: visible;
+  top: 20px;
+  opacity: 1;
+}
